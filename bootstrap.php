@@ -16,7 +16,7 @@ function subscribe(Dispatcher $events)
     'extract' => "!www.bilibili.com/video/av(?'id'[0-9]+)/!",
     'flash'  => [
         'width'  => 640,
-        'height' => 360,
+        'height' => 400,
         'src'    => 'https://static-s.bilibili.com/miniloader.swf?aid={@id}'
     ]
 ]
