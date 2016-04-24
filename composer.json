@@ -1,0 +1,29 @@
+{
+        "name": "JJaicmkmy/bilibili-embed",
+        "description": "Embed bilibili in your Flarum.",
+        "type": "flarum-extension",
+        "keywords": ["flarum","embed","bilibili"],
+        "version": "0.1.0",
+        "author": {
+                "name": "JJaicmkmy"
+        },
+        "license": "MIT",
+        "require": {
+                "php": ">=5.4.0",
+                "flarum/core": "^0.1.0-beta.3"
+        },
+        "support": {
+                "source": "https://github.com/JJaicmkmy/flarum-bilibili",
+                "issues": "https://github.com/JJaicmkmy/flarum-bilibili/issues"
+        },
+        "extra": {
+                "flarum-extension": {
+                        "title": "Bilibili",
+                        "icon": {
+                                "name": "youtube-play",
+                                "backgroundColor": "#cc181e",
+                                "color": "#fff"
+                        }
+                }
+        }
+}
